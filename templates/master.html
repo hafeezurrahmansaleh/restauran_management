@@ -1,0 +1,69 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Iconic Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/vendors/iconic-fonts/flat-icons/flaticon.css' %}">
+    <link href="{% static 'assets/vendors/iconic-fonts/font-awesome/css/all.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/vendors/iconic-fonts/flat-icons/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/iconic-fonts/cryptocoins/cryptocoins.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css' %}">
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- jQuery UI -->
+    <link href="{% static 'assets/css/jquery-ui.min.css' %}" rel="stylesheet">
+    <!-- Costic styles -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/adjusted_style.css' %}" rel="stylesheet">
+    <!-- Favicon -->
+
+    <!-- Page Specific CSS (Slick Slider.css) -->
+    <link href="{% static 'assets/css/slick.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/datatables.min.css' %}" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon.ico' %}">
+</head>
+<body>
+<!-- SCRIPTS -->
+<!-- Global Required Scripts Start -->
+<script src="{% static 'assets/js/jquery-3.5.0.min.js' %}"></script>
+<script src="{% static 'assets/js/popper.min.js' %}"></script>
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/perfect-scrollbar.js' %}">
+</script>
+<script src="{% static 'assets/js/jquery-ui.min.js' %}">
+</script>
+<!-- Global Required Scripts End -->
+
+{# <!-- SCRIPTS -->#}
+<!-- Page Specific Scripts Start -->
+
+<script src="{% static 'assets/js/Chart.bundle.min.js' %}">
+</script>
+<script src="{% static 'assets/js/widgets.js' %}"></script>
+<script src="{% static 'assets/js/clients.js' %}"></script>
+<script src="{% static 'assets/js/Chart.Financial.js' %}"></script>
+<script src="{% static 'assets/js/d3.v3.min.js' %}">
+</script>
+<script src="{% static 'assets/js/topojson.v1.min.js' %}">
+</script>
+<script src="{% static 'assets/js/datatables.min.js' %}">
+</script>
+<script src="{% static 'assets/js/data-tables.js' %}">
+</script>
+<!-- Page Specific Scripts Finish -->
+<!-- Costic core JavaScript -->
+<script src="{% static 'assets/js/framework.js' %}"></script>
+<!-- Settings -->
+<script src="{% static 'assets/js/settings.js' %}"></script>
+{% block base %}
+{% endblock %}
+
+</body>
+</html>
